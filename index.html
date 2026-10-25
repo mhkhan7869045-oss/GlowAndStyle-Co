@@ -7,23 +7,27 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
             margin: 0;
             padding: 20px;
             text-align: center;
+            background-color: #f7f7f7;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+                url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g fill-rule="evenodd"><g fill="%23ddd" fill-opacity="0.1"><path d="M50 40c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10zm10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10zM10 40c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10zm10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10z" /></g></g></svg>');
+            background-attachment: fixed;
         }
         .container {
             max-width: 600px;
             margin: 0 auto;
             background: #ffffff;
             padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
         h1 {
             color: #d63384;
             margin-bottom: 5px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
         }
         .tagline {
             color: #666;
@@ -31,11 +35,17 @@
             margin-bottom: 25px;
         }
         .product-card {
-            border: 1px solid #eaeaea;
-            border-radius: 10px;
-            padding: 20px;
+            border: none;
+            border-radius: 15px;
+            padding: 25px;
             margin: 20px 0;
-            background: #fafafa;
+            background: #fff;
+            box-shadow: 0 4px 15px rgba(214, 51, 132, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(214, 51, 132, 0.2);
         }
         .product-card h3 {
             margin-top: 0;
@@ -45,14 +55,21 @@
             display: inline-block;
             background-color: #0088cc;
             color: white;
-            padding: 12px 25px;
+            padding: 15px 30px;
             text-decoration: none;
-            border-radius: 6px;
+            border-radius: 30px;
             font-weight: bold;
-            margin-top: 15px;
+            font-size: 16px;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 136, 204, 0.4);
+            transition: all 0.3s ease;
         }
         .btn:hover {
             background-color: #006699;
+            box-shadow: 0 8px 20px rgba(0, 136, 204, 0.6);
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -62,14 +79,12 @@
         <h1>GlowAndStyleCases ✨</h1>
         <p class="tagline">Exclusive & Aesthetic Phone Cases. Order directly via Telegram!</p>
 
-        <!-- Product 1 -->
         <div class="product-card">
             <h3>1. Minimalist Floral Phone Case</h3>
             <p>High-quality print, sleek and durable protection for daily use.</p>
             <a href="https://t.me/GlowAndStyleCases" class="btn" target="_blank">Order on Telegram</a>
         </div>
 
-        <!-- Product 2 -->
         <div class="product-card">
             <h3>2. Aesthetic Soft Pastel Case</h3>
             <p>Premium matte finish, lightweight design with all-around edge defense.</p>

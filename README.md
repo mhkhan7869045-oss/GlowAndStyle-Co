@@ -1,10 +1,9 @@
-# GlowAndStyle-Co
-Welcome to GlowAndStyle-Co! ✨
+# GlowAndStyleCases ✨
+Welcome to GlowAndStyleCases! 
 
-Discover the latest AI fashion models, trendy outfits, luxury fashion inspiration, and the best affiliate fashion deals.
+Exclusive and aesthetic mobile phone cases. Order directly via Telegram for a fast and easy experience.
 
-📌 Follow us:
-- Instagram: @glow.andstyleco
-- Pinterest: GlowAndStyle_Co
+📍 **Order Here:**
+- Telegram: [@GlowAndStyleCases](https://t.me/GlowAndStyleCases)
 
-Stay tuned for daily fashion updates
+Stay tuned for daily updates and new case designs!
